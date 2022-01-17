@@ -5,39 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/style/normalize.css" />
     <link rel="stylesheet" href="assets/style/style.css" />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href="#"><img src="assets/images/logo.svg" alt="Logo" /></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#video">Video</a></li>
-          <li><a href="#price">Price</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="language">
-        <p>
-          <span class="en-language">en</span> /
-          <span class="ru-language">ru</span>
-        </p>
-      </div>
-    </header>
-    <main>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="#"><img src="assets/images/logo.svg" alt="Logo" /></a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigatin__list">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="language">
+          <p>
+            <span class="en-language">en</span> /
+            <span class="ru-language">ru</span>
+          </p>
+        </div>
+      </header>
       <section id="hero">
-        <h1>Alexa Rise</h1>
+        <div class="hero-photo">
+          <h1>Alexa Rise</h1>
+          <p>
+            Save sincere emotions, romantic feelings and happy moments of life
+            together with professional photographer Alexa Rise
+          </p>
+          <button>Hire me</button>
+        </div>
       </section>
+    </div>
+    <main>
       <section id="skills">
         <h2 class="name-part">Skills</h2>
+        <div class="skills-list">
+          <div class="skills-list__photo">
+            <div class="skills-list__icon">
+              <img src="assets/images/camera.svg" alt="Digital photography" />
+            </div>
+            <h5 class="skills-list__name">Digital photography</h5>
+            <p>High-quality photos in the studio and on the nature</p>
+          </div>
+          <div class="skills-list__video">
+            <div class="skills-list__icon">
+              <img src="assets/images/video.svg" alt="Video shooting" />
+            </div>
+            <h5 class="skills-list__name">Video shooting</h5>
+            <p>Capture your moments so that they always stay with you</p>
+          </div>
+          <div class="skills-list__retouch">
+            <div class="skills-list__icon">
+              <img src="assets/images/image.svg" alt="Retouch" />
+            </div>
+            <h5 class="skills-list__name">Retouch</h5>
+            <p>I strive to make photography surpass reality</p>
+          </div>
+          <div class="skills-list__audio">
+            <div class="skills-list__icon">
+              <img src="assets/images/mic.svg" alt="Audio" />
+            </div>
+            <h5 class="skills-list__name">Audio</h5>
+            <p>
+              Professional sounds recording for video, advertising, portfolio
+            </p>
+          </div>
+        </div>
       </section>
       <section id="portfolio">
         <h2 class="name-part">Portfolio</h2>
+        <div class="portfolio-buttons">
+          <button>Winter</button>
+          <button>Spring</button>
+          <button>Summer</button>
+          <button>Autumn</button>
+        </div>
+        <div class="portfolio-photo">
+          <img src="assets/images/portfolio-img1.jpg" alt="Photo 1" />
+          <img src="assets/images/portfolio-img2.jpg" alt="Photo 2" />
+          <img src="assets/images/portfolio-img3.jpg" alt="Photo 3" />
+          <img src="assets/images/portfolio-img4.jpg" alt="Photo 4" />
+          <img src="assets/images/portfolio-img5.jpg" alt="Photo 5" />
+          <img src="assets/images/portfolio-img6.jpg" alt="Photo 6" />
+        </div>
       </section>
       <section id="video">
         <h2 class="name-part">Video</h2>
