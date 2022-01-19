@@ -97,14 +97,17 @@ margin-bottom: 10px;
     margin-bottom: 25px;
     margin-top: 0;
 }
-button, input[type="submit"] {
+button {
     width: 220px;
     height: 55px;
     padding: 0;
 }
-.active-button, input[type="submit"] {
+.active-button {
     color: #000000;
     background-color: #bdae82;
+}
+.active-button:hover {
+    color: #ffffff;
 }
 .name-part {
     font-family: Merriweather;
@@ -165,6 +168,9 @@ h4 {
     background-color: #000000;
     border: 2px solid #bdae82;
     color: #bdae82;
+}
+.non-active-button:hover {
+    color: #ffffff;
 }
 .portfolio-buttons {
     display: flex;
@@ -308,3 +314,6 @@ footer {
     margin: 0;
     line-height: 50px;
 }
+path:hover {
+    fill: #bdae82;
+} 
